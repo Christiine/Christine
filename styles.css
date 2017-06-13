@@ -1,0 +1,28 @@
+p.hi{
+    color:darksalmon;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+p.hello {
+    color:aquamarine;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    font-size: 50px;
+}
+
+p.hey{
+    color:cornflowerblue;
+    font-family: sans-serif
+}
+
+body{
+    background:pink;
+}
+
+p.morning{
+    color: lightblue;
+    font-family: monospace;
+}

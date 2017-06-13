@@ -2,15 +2,44 @@
 
 <html>
     
-    
     <head>
-        <title>Christine's Page</title>
+        <title>Christine's Page</title> 
+        <style>
+            #favorites {
+                color:lavender;
+                text-align: center;
+                font-size: 30px;
+            }
+            #heading {
+                font-size: 100px;
+                text-align: center;
+                color: lightyellow
+            }
+            .center {
+                display: flex;
+                justify-content: center;
+            }
+            body {
+                background-image: url("background.jpg");
+            }
+            .first {
+                display: flex;
+                justify-content: center
+            }
+            .middle {
+                display: flex;
+                justify-content: center;
+            }
+        </style>
     </head>
     
     
     <body>
-    
-        <p>
+        <p id='heading'>
+            All About Me
+        </p>
+        
+        <p id='favorites'> 
             Favorite Movie: Divergent
                 <br>
             Favorite Color: Rose Gold
@@ -20,14 +49,17 @@
             Favorite Show: Pretty Little Liars
                 <br>
         </p>
-    
+            <div class='first'>
             <a href="http://google.com">Google</a>
+            </div>
                 <br>
-                <br>
+            <div class= 'middle'>
             <a href="newpage.html">New</a>
+                </div>
                 <br>
-                <br>
-            <img src="puppy.jpeg">
+            <div class="center">
+                <img src="puppy.jpeg" height="400px" width="400px">
+            </div>
     
     </body>
     
