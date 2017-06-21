@@ -3,7 +3,6 @@ p.hi{
     font-family: fantasy;
     font-size: 50px;
     text-align: center;
-    
 }
 
 p.hello {
@@ -22,7 +21,6 @@ body{
     background:pink;
 }
 
-p.morning{
-    color: lightblue;
-    font-family: monospace;
+.first{
+    font-size: 50px;
 }
